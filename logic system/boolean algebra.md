@@ -40,34 +40,22 @@ $$(a\cap b) \cup (a \cap b\cap c) \iff (a\cap b)$$
 |----------------------------|-------------------------------|
 | **Identity**               | **Null**                      |
 | $$A \vee 0 = A$$               | $$A \wedge 1 = A$$                  |
-| $$A \wedge 1 = A$$               | $$A \vee 0 = A$$                  |
 | **Complement**|
 | $$A \vee A' = 1$$              | $$A \wedge A' = 0$$                 |
-| $$A \wedge A' = 0$$              | $$A \vee A' = 1$$                 |
 | **Associative**|
 | $$A \vee (B \vee C) = (A \vee B) \vee C$$ | $$A \wedge(B \wedge C) = (A \wedge B) \wedge C$$ |
-| $$A \wedge (B \wedge C) = (A \wedge B) \wedge C$$ | $$A \vee (B \vee C) = (A \vee B) \vee C$$ |
 | **Distributive**|
 | $$A \vee (B \wedge C) = (A \vee B) \wedge (A \vee C)$$ | $$A \wedge (B \vee C) = (A \wedge B) \vee (A \wedge C)$$ |
-| $$A \wedge (B \vee C) = (A \wedge B) \vee (A \wedge C)$$ | $$A \vee (B \wedge C) = (A \vee B) \wedge (A \vee C)$$ |
 | **De Morgan's**|
 | $$(A \vee B)' = A' \wedge B'$$      | $$(A \wedge B)' = A' \vee B'$$         |
-| $$(A \wedge B)' = A' \vee B'$$      | $$(A \vee B)' = A' \wedge B'$$         |
-| **Null**                   | **Identity**                  |
-| $$A \vee A = A$$               | $$A \wedge A = A$$                  |
-| $$A \wedge A = A$$               | $$A \vee A = A$$                  |
 | **Idempotence**|
 | $$A \vee A = A$$               | $$A \wedge A = A$$                  |
-| $$A \wedge A = A$$               | $$A \vee A = A$$                  |
 | **Involution**|
-| $$(A')' = A$$               | $$(A')' = A$$                  |
 | $$(A')' = A$$               | $$(A')' = A$$                  |
 | **Commutative**|
 | $$A \vee B = B \vee A$$           | $$A \wedge B = B \wedge A$$                |
-| $$A \wedge B = B \wedge A$$             | $$A \vee B = B \vee A$$              |
 | **Absorption**|
 | $$A \vee (A \wedge B) = A$$         | $$A \wedge (A \vee B) = A$$            |
-| $$A \wedge (A \vee B) = A$$         | $$A \vee (A \wedge B) = A$$            |
 | **Simplification**|
 | $$A \vee (A' \wedge B) = A \vee B$$      | $$A \wedge (A' \vee B) = A \wedge B$$         |
 | $$A' \wedge (A \vee B) = A' \wedge B$$     | $$A \vee A' \wedge B = A \vee B$$         |
