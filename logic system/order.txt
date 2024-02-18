@@ -1,0 +1,7 @@
+Solutions-GLSI.pdf/Solutions of examples in chap1 -> Done
+Digital Circuits.pdf -> Done
+chapter2-Boolean algebra and logic Circuits -> Done
+chapter3 -> Done
+Chpap2-memory -> Done
+Chap3-processor+addressing mode -> In progress
+
