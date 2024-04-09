@@ -1,0 +1,8 @@
+latency = temission + t propagation + t processing
+temission = Length of frame / throughtput
+propagation = distance (length of cable) / velocity => variable
+processing = path = switch + router (queue) => variable
+latency = jitter
+s = 1111 = 2⁴ - 1 (2 power number of 1s)
+bin = (200)D / 16 + rest
+256 - 2^l / 255 - 2^l - 1

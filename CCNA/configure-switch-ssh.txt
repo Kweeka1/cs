@@ -1,0 +1,24 @@
+1. Access the switch CLI: Connect to the switch either through a console cable
+2. Enter privileged EXEC mode
+enable
+3. Enter global configuration mode
+configure terminal
+4. Generate RSA key pair (You'll be prompted to enter a modulus size. 2048 is commonly used)
+crypto key generate rsa
+5. Configure SSH version and authentication settings
+ip ssh version 2
+ip ssh authentication-retries 3
+6. Configure VTY lines (up to three lines in this case)
+line vty 0 2
+7. Enable SSH access on VTY lines
+transport input ssh
+8. Set login authentication (the method of authentication to be used for accessing the VTY lines)
+login local
+9. Set a username and password for SSH access (level 15 (full access))
+username <username> privilege 15 secret <password>
+10. Exit configuration mode and save changes
+end
+write memory
+
+
+

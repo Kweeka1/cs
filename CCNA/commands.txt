@@ -1,0 +1,27 @@
+enable => increase privilege level from normal user to superuser (become root) (shell changes to #>)
+# the following are commands in root mode
+configure terminal => to configure the network (shell becomes (config)#)
+? => show available commands
+con? => complete the command
+configure ? => show available options
+
+enable password <password> => set up a password (not encrypted)
+enable secret => set up an encrypted password
+
+(config)# hostname <name> => change the hostname name (switch => <name given>)
+
+- enter into the configuration mode for the console port.
+- If a device has multiple console ports (which is rare), you might see line console 1 for the second console port and so on.
+- After entering line console 0, you would then be able to configure specific settings for the console port, such as setting the baud rate with the speed command (speed 9600)
+(config)# line console 0 => change (config)# to (config-line)#)
+
+- When you enter interface vlan 1 in global configuration mode, you enter into the configuration mode for VLAN 1 interface
+- Once in the VLAN interface configuration mode, you can configure various settings related to the VLAN interface, such as IP address, subnet mask, routing protocols, and other parameters (ip address 192.168.1.1 255.255.255.0)
+(config)# interface vlan 1 => change (config)# to (config-if)#
+
+
+(config)# line vty <number> <number of sessions> => activate virtual terminals (ssh/telnet)
+
+(config-line)# password => set up password for vty
+(config-line)# login
+(config-line)# transport input <all, ssh, telnet, none>
