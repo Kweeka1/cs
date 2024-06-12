@@ -1,0 +1,15 @@
+# comparison operators
+x = int(input("Enter a number: "))
+y = int(input("Enter a second number: "))
+
+print(f"{x == y = }")
+print(f"{x > 10 and x < 100 = }")
+print(f"{x == 50 = }")
+print(f"{x != y = }")
+print(f"{x != 50 and x > y = }")
+print(f"{x > y = }")
+print(f"{x > y or x > 10 = }")
+print(f"{x < y = }")
+print(f"{x >= y = }")
+print(f"{x >= y and not x != y = }")
+print(f"{x <= y = }")

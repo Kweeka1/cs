@@ -1,7 +1,3 @@
-//
-// Created by arp on 10/21/23.
-//
-
 #include "stdio.h"
 
 int calculateNumberDigitsSum(int num) {
